@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FunInMayWay</string>
+    <string name="btn1">Инструкции</string>
+    <string name="btn2">Старт игры</string>
+    <string name="btn3">История игр</string>
+
+    <string name="textInstr1">Начало игры</string>
+    <string name="textInstr2">Первый игрок придумывает слово.
+        Но не говорит его другим игрокам.
+        Вводит загаданное
+        слово в поле, включает  таймер.
+        Другие игроки пытаются угадать
+        это слово.
+        Они задают вопросы, на которые можно отвечать только <b>"ДА"</b> или <b>"НЕТ"</b></string>
+    <string name="textInstr3">Как угадать?</string>
+    <string name="textInstr4"><b>Например:</b>"\n"Это живое? Это можно есть?"\n"Это сделал человек? Это есть у нас дома?"\n"Это больше чем наша машина?</string>
+    <string name="textInstr5">Кто победил?</string>
+    <string name="textInstr6">
+"""Когда слово угадано, первый игрок
+вводит имя человека, который угадал его слово.
+Побеждает тот, кто загадал самое сложное слово."""</string>
+
+    <string name="textGame1">Выберите количество игроков</string>
+    <string name="textGame2">"Игрок "</string>
+    <string name="textGame3">"Введите свое слово в поле ниже"</string>
+    <string name="textGame4"><u>Ни кто не может угадать, все сдаются!</u></string>
+    <string name="textGame5">Включить таймер</string>
+    <string name="textGame51">Остановить таймер</string>
+    <string name="textGame6">Кто угадал ваше слово?</string>
+    <string name="textGame7">Выберите, кто первым угадал слово</string>
+    <string name="textGame8">Выберите, кто угадал слово</string>
+    <string name="textGame9">Никто не угадал, все сдались!</string>
+    <string name="textGame10">Я случайно нажал, и хочу продолжить игру</string>
+    <string name="textGame11">Я хочу покинуть игру</string>
+    <string name="textGame12">Вы должны придумать слово, напишите его здесь и нажмите ОК. Никто не должен видеть это слово!</string>
+    <string name="textGame13">Ok</string>
+    <string name="textGame14">Введите слово, не показывайте его никому!</string>
+    <string name="textGame15">Нажмите кнопку «Включить таймер». Игра начинается! </string>
+    <string name="textGame16">Остальные игроки, в свою очередь, будут задавать вам вопросы, на которые вы можете ответить только да или нет. Они должны угадать ваше слово!</string>
+    <string name="textGame17">Вы хотите выйти из игры?</string>
+    <string name="textGame18">Да</string>
+    <string name="textGame19">Нет</string>
+    <string name="_0_00">0:00</string>
+
+
+    <string name="textHistori1">История игр</string>
+    <string name="textHistori2">Игроки:</string>
+    <string name="textHistori3">Победитель:</string>
+    <string name="textHistori4">Общее время игры:</string>
+    <string name="textHistori5">Самое сложное слово:</string>
+    <string name="textHistori6">Время:</string>
+
+
+    <string name="gameResult1">РезультатЖ</string>
+    <string name="gameResult2">Самое сложное слово</string>
+    <string name="gameResult3">Самое легкое слово</string>
+    <string name="gameResult4">Лучший игрок</string>
+    <string name="gameResult5">Уменьшенное время в пути)</string>
+
+    <string name="gameResult6">Добавить игрока</string>
+    <string name="gameResult7">Продолжить игру</string>
+    <string name="gameResult8">Выход</string>
+
+
+    <string name="dialog1">Вы хотите продолжить предыдущую игру?</string>
+    <string name="dialog2">Внимание!</string>
+
+</resources>

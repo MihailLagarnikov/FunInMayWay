@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">FunInMayWay</string>
+    <string name="btn1">Instructions</string>
+    <string name="btn2">Start Game</string>
+    <string name="btn3">Game history</string>
+
+    <string name="textInstr1">Beginning of the game</string>
+    <string name="textInstr2">The first player utters the word.
+        But does
+        not speak about this to other players.
+        Enters
+        it in the field, includes a timer.
+        Other players try to guess
+        this word.
+        Other players ask questions that can only be answered with <b>"yes"</b> or <b>"no."</b></string>
+    <string name="textInstr3">How to guess?</string>
+    <string name="textInstr4"><b>For example:</b>"\n"Is it alive? Is it possible to eat?"\n"Did this man do? Is this at home?"\n"Is it bigger than our car?</string>
+    <string name="textInstr5">Who is winning?</string>
+    <string name="textInstr6">
+"""When a word is guessed, the first player
+enters the name of the person who guessed his word.
+Players are awarded coints for the most difficult word."""</string>
+
+    <string name="textGame1">Select the number"\n"of players</string>
+    <string name="textGame2">"Player "</string>
+    <string name="textGame3">"Enter your word in the box below"</string>
+    <string name="textGame4"><u>DID NOT GUESS!</u></string>
+    <string name="textGame5">Start timer</string>
+    <string name="textGame51">Stop timer</string>
+    <string name="textGame6">Who guessed your word?</string>
+    <string name="textGame7">Choose who will first guess the word</string>
+    <string name="textGame8">Choose who guessed the word</string>
+    <string name="textGame9">Nobody guessed, everyone surrendered</string>
+    <string name="textGame10">I accidentally clicked, and I want to continue the game</string>
+    <string name="textGame11">I want to leave the game</string>
+    <string name="textGame12">you have to invent a word, write it here and click OK. No one should see this word!</string>
+    <string name="textGame13">Ok</string>
+    <string name="textGame14">Enter the word, do not show it to anyone!</string>
+    <string name="textGame15">Click the Start Timer button. The game begins! </string>
+    <string name="textGame16">The remaining players in turn will ask you questions that you can only answer yes or no. They must guess your word!</string>
+    <string name="textGame17">Do you want to quit the game?</string>
+    <string name="textGame18">Yes</string>
+    <string name="textGame19">No</string>
+    <string name="_0_00">0:00</string>
+
+
+    <string name="textHistori1">Game history</string>
+    <string name="textHistori2">Players:</string>
+    <string name="textHistori3">Winner:</string>
+    <string name="textHistori4">Total playing time:</string>
+    <string name="textHistori5">The most difficult word:</string>
+    <string name="textHistori6">Time:</string>
+
+
+    <string name="gameResult1">Game result</string>
+    <string name="gameResult2">The most difficult word</string>
+    <string name="gameResult3">The easiest word</string>
+    <string name="gameResult4">Best player</string>
+    <string name="gameResult5">Decreased travel time</string>
+
+    <string name="gameResult6">Add player</string>
+    <string name="gameResult7">Continue game</string>
+    <string name="gameResult8">Exit</string>
+
+
+    <string name="dialog1">Do you want to continue the previous game?</string>
+    <string name="dialog2">Attention!</string>
+
+
+    <string name="newWorckScreen1">00:00</string>
+    <string name="newWorckScreen2">СТАРТ</string>
+    <string name="newWorckScreen3">Количество игроков</string>
+    <string name="newWorckScreen4">Начать игру</string>
+    <string name="newWorckScreen5">Введите имя игрока</string>
+    <string name="newWorckScreen6">Игрок</string>
+    <string name="newWorckScreen7">СТОП</string>
+
+
+    <string name="dialogExistGame">Отмена</string>
+
+
+
+    <string name="statusString1">Настройки игры  ...</string>
+    <string name="statusString2">Выбираем игрока ...</string>
+    <string name="statusString3">Загадайте слово ...</string>
+    <string name="statusString4">Нажмите старт ...</string>
+    <string name="statusString5">Отгадываем слово ...</string>
+    <string name="statusString6">Слово отгадано ...</string>
+    <string name="statusString7">Победа!</string>
+    <string name="statusString8">История игр</string>
+
+
+    <string name="guesWord1">загадывает слово</string>
+    <string name="guesWord2">...</string>
+    <string name="guesWord3">Введите ваше слово</string>
+
+
+    <string name="finishFRagment1">Играть еще раз</string>
+
+    <string name="exitGameDialog">Вы хотите покинуть игру?</string>
+    <string name="isGameExistDialog">На данный момент есть не оконченная вами игра. Вы хотите продолжить игру?</string>
+
+</resources>

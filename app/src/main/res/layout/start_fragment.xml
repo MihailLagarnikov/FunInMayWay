@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/background"
+            android:id="@+id/constrStartFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+                android:text="@string/btn1"
+                style="@style/btnText"
+                android:background="@drawable/btn_instr"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/buttonInstructions" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="19dp" android:layout_marginRight="19dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintBottom_toTopOf="@+id/buttonStartGame"
+                android:layout_marginTop="8dp" android:layout_marginBottom="16dp"/>
+        <Button
+                android:text="@string/btn2"
+                style="@style/btnText"
+                android:background="@drawable/btn_start"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/buttonStartGame" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintTop_toBottomOf="@+id/buttonInstructions"
+                app:layout_constraintBottom_toTopOf="@+id/buttonHistori"/>
+        <Button
+                android:text="@string/btn3"
+                style="@style/btnText"
+                android:background="@drawable/btn_hist"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/buttonHistori" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonStartGame" app:layout_constraintHorizontal_bias="0.5"
+                android:layout_marginBottom="56dp" android:layout_marginTop="16dp"/>
+        <ImageView
+                android:elevation="14dp"
+                android:layout_width="120dp"
+                android:layout_height="0dp" app:srcCompat="@drawable/ic_instructions_firstscreen"
+                android:id="@+id/imageViewInstr"
+                app:layout_constraintBottom_toBottomOf="@+id/buttonInstructions"
+                app:layout_constraintEnd_toEndOf="@+id/buttonInstructions" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" app:layout_constraintTop_toTopOf="@+id/buttonInstructions"
+        />
+        <ImageView
+                android:elevation="14dp"
+                android:layout_width="140dp"
+                android:layout_height="0dp" app:srcCompat="@drawable/ic_startgame_firstscreen"
+                android:id="@+id/imageViewStart"
+                app:layout_constraintBottom_toBottomOf="@+id/buttonStartGame"
+                app:layout_constraintTop_toTopOf="@+id/buttonStartGame"
+                app:layout_constraintEnd_toEndOf="@+id/buttonStartGame" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintVertical_bias="0.39999998"/>
+        <ImageView
+                android:elevation="14dp"
+                android:layout_width="150dp"
+                android:layout_height="0dp" app:srcCompat="@drawable/ic_history_firstscreen"
+                android:id="@+id/imageViewHistori"
+                app:layout_constraintBottom_toBottomOf="@+id/buttonHistori"
+                app:layout_constraintTop_toTopOf="@+id/buttonHistori"
+                app:layout_constraintEnd_toEndOf="@+id/buttonHistori" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginTop="8dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@color/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        tools:text="35 min"
+                        style="@style/textOrange96"
+                        android:textSize="48sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView21"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView20"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                        app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"/>
+                <TextView
+                        android:text="@string/gameResult5"
+                        style="@style/textBraun14"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView20"
+                        android:layout_marginTop="64dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewBestPlayer"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+                <TextView
+                        tools:text="Anna"
+                        style="@style/textHistori12red"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textViewBestPlayer"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView18"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+                <TextView
+                        android:text="@string/gameResult4"
+                        style="@style/textBraun14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView18"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewEasyWord"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+                <TextView
+                        tools:text="LightWord"
+                        style="@style/textHistori12red"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp" android:id="@+id/textViewEasyWord"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView16"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+                <TextView
+                        android:text="@string/gameResult3"
+                        style="@style/textBraun14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView16"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewMostDifWord"/>
+                <TextView
+                        tools:text="GopaWord"
+                        style="@style/textHistori12red"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textViewMostDifWord"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView14"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+                <TextView
+                        android:text="@string/gameResult2"
+                        style="@style/textBraun14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView14"
+                        android:layout_marginTop="32dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView10"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"/>
+                <TextView
+                        android:text="@string/gameResult1"
+                        style="@style/textBraun16"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView10"
+                        app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+                <Button
+                        android:text="@string/gameResult6"
+                        android:background="@drawable/btn_instr"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonAddPlayer" android:layout_marginTop="50dp"
+                        app:layout_constraintTop_toBottomOf="@+id/textView21" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+                        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+                <Button
+                        android:text="@string/gameResult7"
+                        android:background="@drawable/btn_instr"
+                        android:textColor="@color/text1"
+                        android:textSize="18sp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonContin" android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+                        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/buttonAddPlayer"/>
+                <Button
+                        android:text="@string/gameResult8"
+                        android:background="@drawable/btn_start"
+                        android:textColor="@color/text1"
+                        android:textSize="18sp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonExit" app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp" app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintTop_toBottomOf="@+id/buttonContin" android:layout_marginBottom="24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="220dp" app:srcCompat="@drawable/ic_result_game"
+                        android:id="@+id/imageView10" android:layout_marginBottom="8dp"
+                        app:layout_constraintBottom_toTopOf="@+id/textView20" app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView18" android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

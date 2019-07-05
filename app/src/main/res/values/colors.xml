@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="btnInstr1">#FDC700</color>
+    <color name="btnInstr2">#fde800</color>
+    <color name="btnStart1">#FF4B4B</color>
+    <color name="btnStart2">#ff7b4b</color>
+    <color name="btnHist1">#B4C0BA</color>
+    <color name="textEnterWord">#D9D0D0</color>
+    <color name="btnHist2">#dbded5</color>
+    <color name="arrowLeft">#FDC700</color>
+    <color name="triangle">#C4C4C4</color>
+    <color name="text1">#811630</color>
+    <color name="background">#E5F6FE</color>
+    <color name="transient2">#00e5f6fe</color>
+    <color name="textHistori">#8F858B</color>
+    <color name="dividerHistori">#338f858b</color>
+    <color name="white">#ffffff</color>
+    <color name="dontColor">#00ffffff</color>
+    <color name="editTextWord">#E6EFEB</color>
+
+
+    <color name="flowerA">#47e99bb3</color>
+    <color name="flowerB">#4acec1ed</color>
+    <color name="flowerC">#4aaa97db</color>
+    <color name="flowerD">#4828c1ea</color>
+    <color name="flowerE">#4668cfff</color>
+    <color name="flowerF">#49edb4c7</color>
+
+    <color name="flowerA_Brite">#E99BB3</color>
+    <color name="flowerB_Brite">#f3cec1ed</color>
+    <color name="flowerC_Brite">#AA97DB</color>
+    <color name="flowerD_Brite">#28C1EA</color>
+    <color name="flowerE_Brite">#68CFFF</color>
+    <color name="flowerF_Brite">#efedb4c7</color>
+</resources>
